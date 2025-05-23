@@ -1,0 +1,222 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: -2px -2px rgb(223, 222, 222);
+}
+
+h1{
+    font-family: "Lexend", sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+h2{
+    font-family:"Funnel Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.email-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-family:"Funnel Sans", sans-serif;
+    color: rgb(112, 110, 110);
+
+}
+
+
+
+input[type = "email"]{
+    width: 350px;
+    margin-top: 4px;
+    padding: 5px;
+    border: 1px solid rgb(173, 173, 173);
+    box-sizing: border-box;
+}
+
+.password-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-family:"Funnel Sans", sans-serif;
+    color: rgb(112, 110, 110);
+}
+
+input[type = "password"]{
+    width: 350px;
+    margin-top: 4px;
+    padding: 5px;
+    border: 1px solid rgb(173, 173, 173);
+    box-sizing: border-box;
+}
+
+.password-Redirect{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.password-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(63, 63, 63);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.log-In-Button{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(63, 63, 63);
+    border: 0;
+}
+
+.toggle-Switch-Container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.toggle-Switch-Text{
+    margin-left: 20px;
+    font-family:"Funnel Sans", sans-serif;
+    font-weight: 200;
+    color: rgb(63, 63, 63);
+
+}
+
+hr {
+  clear:both;
+  border: 0px;
+  display:block;
+  width: 100%;               
+  background-color:rgb(196, 196, 196);
+  height: 0.5px;
+}
+
+.or-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    padding: 10px;
+    color: rgb(196, 196, 196);
+}
+
+.google.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(63, 63, 63);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+svg{
+    width: 30px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.google-button {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(63, 63, 63);
+    border: 0;
+}
+
+.sign-up-Redirect{
+    color: rgb(63, 63, 63);
+    margin-top: 5px;
+}
+
+.account-Creation-Prompt-Message{
+    color: rgb(151, 151, 151);
+}
